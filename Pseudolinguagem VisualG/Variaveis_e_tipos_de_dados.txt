@@ -1,0 +1,34 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 27/07/2021
+Var
+// Seção de Declarações das variáveis 
+produto1 : caractere
+produto2 : caractere
+preco1 : real
+preco2 : real
+idade : inteiro
+codigo : inteiro
+genero : caractere
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+produto1 <- "computador"
+produto2 <- "tv"
+preco1 <- 2100.5
+preco2 <- 1830.0
+idade <- 30
+codigo <- 5291
+genero <- "F"
+escreval("Produto:")
+escreval("o produto do ", produto1, " custa R$", preco1)
+escreval("o produto ", produto2, " custa R$", preco2)
+escreval
+escreval("codigo = ", codigo)
+escreval
+escreva("Dados da pessoa: genero ", genero, " e idade: ", idade)
+
+Fimalgoritmo
