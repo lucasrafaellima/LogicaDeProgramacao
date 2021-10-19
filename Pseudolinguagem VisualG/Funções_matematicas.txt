@@ -1,0 +1,27 @@
+Algoritmo "funcoes matematicas"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 27/07/2021
+Var
+// Seção de Declarações das variáveis 
+base : real
+altura : real
+area : real
+perimetro : real
+diagonal : real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreva("digite a base: ")
+leia(base)
+escreva("digite a altura: ")
+leia(altura)
+area <- base * altura
+perimetro <- (base * 2) + (altura * 2)
+diagonal <- raizQ(base^2 + altura^2)
+escreval("a area é: ", area)
+escreval("perimetro é: ", perimetro)
+escreval("a diagonal é: ", diagonal)
+
+Fimalgoritmo
