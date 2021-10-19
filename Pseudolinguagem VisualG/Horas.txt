@@ -1,0 +1,18 @@
+Algoritmo "horas"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 30/07/2021
+Var
+duracao : inteiro
+horas, minutos, segundos, resto : real
+Inicio
+escreva("digite o tempo em segundos: ")
+leia(duracao)
+horas <- duracao / 3600
+resto <- duracao % 3600
+minutos <- resto / 60
+segundos <- resto % 60
+escreva(horas:8:0, ":", minutos:8:0, ":", segundos:8:0)
+Fimalgoritmo
