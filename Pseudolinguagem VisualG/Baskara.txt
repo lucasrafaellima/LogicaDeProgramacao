@@ -1,0 +1,29 @@
+Algoritmo "Baskara"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 04/08/2021
+Var
+delta, baskara1, baskara2, coeficientea, coeficienteb, coeficientec : real
+
+
+Inicio
+
+escreva("coeficiente A: ")
+leia(coeficientea)
+escreva("coeficiente B: ")
+leia(coeficienteb)
+escreva("coeficiente C: ")
+leia(coeficientec)
+delta <- exp(coeficienteb, 2) - 4*coeficientea *coeficientec
+se (coeficientea = 0) ou (delta < 0) entao
+   escreva("Esta equacao nao possui raizes reais")
+senao
+   baskara1 <-  (- coeficienteb + (raizQ(delta))) / (2 * coeficientea)
+   baskara2 <- (-coeficienteb - raizQ(delta)) / (2 * coeficientea)
+   escreval("x1: ", baskara1:6:4)
+   escreval("x2: ", baskara2:6:4)
+fimse
+
+Fimalgoritmo
