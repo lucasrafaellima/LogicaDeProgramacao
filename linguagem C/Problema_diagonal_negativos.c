@@ -20,7 +20,8 @@ int main()
             }
         }
     }
-    //necessita de duas 
+    //necessita de duas repeticoes do for para receber os valores nas linhas e colunas ex: 3x3
+    //condicao if para acumular a quantidade de valores negativos
     
     printf("diagonal principal: \n");
     for (i=0;i<n;i++) {
@@ -30,7 +31,7 @@ int main()
             }
         }
     }
-    
+    //mostrar apenas os valores da diagonal principal
     printf("\nquantidade de negativos: %d", negativos);
 
     return 0;
