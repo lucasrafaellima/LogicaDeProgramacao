@@ -1,4 +1,4 @@
-# lógica de programacao Udemy
+# lógica de programação Udemy
  Pseudolinguagem: VisualG
  
  linguagens: C, Java, Python, c++ e c#
