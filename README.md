@@ -1,7 +1,7 @@
-# lógica de programação Udemy
+# lógica de Programação
  Pseudolinguagem: VisualG
  
  linguagens: C, Java, Python, c++ e c#
 
 
-Repositório criado para compartilhamento do que aprendi com as linguagens de programação
+Repositório criado para compartilhamento do que estou aprendendo nas linguagens de programação.
