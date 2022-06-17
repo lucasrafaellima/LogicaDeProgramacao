@@ -1,4 +1,4 @@
-# lógica de Programação
+# Lógica de Programação
  Pseudolinguagem: VisualG
  
  linguagens: C, Java, Python, c++ e c#
